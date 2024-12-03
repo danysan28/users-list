@@ -1,2 +1,3 @@
 # contacts-list
-React with JS and Redux
+
+Ejercicio Final de la metoría de ES6
