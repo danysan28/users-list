@@ -1,3 +1,5 @@
+import { loadContacts, filterContacts, drawContacts, drawNavigationBar } from './main';
+
 (() => {
   document.addEventListener("DOMContentLoaded", () => {
     let data = [];
