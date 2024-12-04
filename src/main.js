@@ -1,3 +1,3 @@
-export function filterContacts(contacts=[],query='') {
+export function filterContacts(contacts = [], query = '') {
     return contacts;
 }
