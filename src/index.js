@@ -1,4 +1,9 @@
-import { loadContacts, filterContacts, drawContacts, drawNavigationBar } from './main';
+import {
+  loadContacts,
+  filterContacts,
+  drawContacts,
+  drawGroupedContacts,
+} from "./main";
 
 (() => {
   document.addEventListener("DOMContentLoaded", () => {
@@ -12,7 +17,7 @@ import { loadContacts, filterContacts, drawContacts, drawNavigationBar } from '.
       const filteredData = filterContacts(data, query);
 
       if ($checkbox.checked) {
-        drawNavigationBar(filteredData);
+        drawGroupedContacts(filteredData);
       } else {
         drawContacts(filteredData);
       }
