@@ -19,7 +19,7 @@ Este proyecto tiene como objetivo reforzar los conocimientos adquiridos sobre Ja
    - Esta función por el momento solo debe retornar la propiedad contacts recibida por parámetos sin aplicarle ningún cambio.
 4. Implementar la función `drawContacts(contacts)`.
    - Esta función toma la lista de contactos y será la encargada de dibujar en la UI todos éstos en forma de lista:
-     ![Contacts List](public\ejercicio-final-raw-js_2.png)
+     ![Contacts List](public/ejercicio-final-raw-js_2.png)
 5. Implementar la función `groupContactsByLetter(contacts)`.
    - Esta función tomará la lista de contactos pasada como parámetro y debe regresar la lista de contactos de la siguiente forma:
      ```
@@ -30,19 +30,19 @@ Este proyecto tiene como objetivo reforzar los conocimientos adquiridos sobre Ja
      ```
 6. Implementar la función `drawGroupedContacts(contacts)`.
    - La función tomará la lista de contactos como parámetro y debe dibujar en la UI la lista de una manera direferente:
-     ![Contacts List](public\ejercicio-final-raw-js.png)  
+     ![Contacts List](public/ejercicio-final-raw-js.png)  
      _El objetivo es utilizar la función implementada previamente (`groupContactsByLetter(contacts)`)._
 7. Implementar función `drawNavigationBar(contacts)`.
    - La función tomará la lista de contactos como parámetro y debe dibujar una barra de navegación que liste las letras de los contactos agrupados y mostrarse del lado derecho verticalmente como se muestra a continuación:  
-     ![Contacts List](public\ejercicio-final-raw-js.png)  
+     ![Contacts List](public/ejercicio-final-raw-js.png)  
      _El objetivo es utilizar la función implementada previamente (`groupContactsByLetter(contacts)`)._
 8. Verificar comportamiento:
    - Cada que el checkbox "Group by Letter" esté activado, la lista deberá desplegarse agrupada y la barra de navegación tiene que ser mostrada.  
-     ![Contacts List](public\ejercicio-final-raw-js.png)
+     ![Contacts List](public/ejercicio-final-raw-js.png)
    - Cada que el checkbox "Group by Letter" esté desactivado, la lista deberá desplegarse sin agruparse.  
-     ![Contacts List](public\ejercicio-final-raw-js_2.png)
+     ![Contacts List](public/ejercicio-final-raw-js_2.png)
 9. Implementar el siguiente comportamiento de manera libre.  
-   ![Navigate by letter](public\ejercicio-final-raw-js_navegar.gif)
+   ![Navigate by letter](public/ejercicio-final-raw-js_navegar.gif)
 10. Agregar lógica para filtrar contactos en `filterContacts(contacts, query)`. - La función tomará la lista de contactos como parámetro y el criterio de búsqueda ingresado en el input, debe regresar los contactos filtrados cuyo nombre o apellido lleven la variable `query`, si `query` no tiene valor, debe regresar la lista de contactos sin filtrar.
     Por ejemplo:
 
@@ -64,4 +64,4 @@ Este proyecto tiene como objetivo reforzar los conocimientos adquiridos sobre Ja
     result = [{ name: "Pedro Paramo"}, {name:"Juan Camanei"}, {name:"Carlos Castro"}]
     ```
 
-    ![Filter](public\ejercicio-final-raw-js_filtrar.gif)
+    ![Filter](public/ejercicio-final-raw-js_filtrar.gif)
